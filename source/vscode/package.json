@@ -1,32 +1,32 @@
 {
-  "name": "midnight",
-  "displayName": "Midnight",
-  "description": "Custom theme inspired on One Dark Pro with some tweaks.",
-  "version": "1.0.0",
-  "engines": {
-    "vscode": "^1.55.0"
-  },
-  "publisher": "thewerthon",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thewerthon/midnight"
-  },
-  "icon": "./images/logo.png",
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Midnight Light",
-        "uiTheme": "vs-dark",
-        "path": "./themes/midnight-light.json"
-      },
-      {
-        "label": "Midnight Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/midnight-dark.json"
-      }
-    ]
-  }
+	"name": "midnight",
+	"displayName": "Midnight",
+	"description": "Custom theme inspired on One Dark Pro with some tweaks.",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"publisher": "thewerthon",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thewerthon/midnight"
+	},
+	"icon": "./images/logo.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Midnight Light",
+				"uiTheme": "vs-dark",
+				"path": "./themes/midnight-light.json"
+			},
+			{
+				"label": "Midnight Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/midnight-dark.json"
+			}
+		]
+	}
 }

@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v1
-        
+
       - name: Generate Badges
         uses: thewerthon/RepoBadges@v1.0.1
         id: badges
@@ -31,5 +31,5 @@ jobs:
           publish_dir: ./output
           publish_branch: badges
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"

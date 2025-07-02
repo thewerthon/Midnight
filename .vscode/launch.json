@@ -1,15 +1,11 @@
 {
-  "configurations": [
-    {
-      "args": [
-        "--extensionDevelopmentPath=${workspaceFolder}/source/vscode"
-      ],
-      "name": "Launch Extension",
-      "outFiles": [
-        "${workspaceFolder}/out/**/*.js"
-      ],
-      "request": "launch",
-      "type": "extensionHost"
-    }
-  ]
+	"configurations": [
+		{
+			"args": ["--extensionDevelopmentPath=${workspaceFolder}/source/vscode"],
+			"name": "Launch Extension",
+			"outFiles": ["${workspaceFolder}/out/**/*.js"],
+			"request": "launch",
+			"type": "extensionHost"
+		}
+	]
 }

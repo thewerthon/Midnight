@@ -5,16 +5,19 @@
       "label": "package",
       "type": "shell",
       "command": "vsce",
-      "args": [
-        "package",
-        "--out",
-        "../../dist/vscode/midnight.vsix"
-      ],
+      "args": ["package", "--out", "../../dist/vscode/midnight.vsix"],
       "options": {
         "cwd": "source/vscode"
       },
       "group": "build",
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "close": true,
+        "focus": false,
+        "panel": "shared",
+        "reveal": "always",
+        "showReuseMessage": false
+      }
     }
   ]
 }

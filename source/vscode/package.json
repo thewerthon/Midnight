@@ -1,6 +1,6 @@
 {
-	"name": "midnight",
-	"displayName": "Midnight",
+	"name": "thewerthon-midnight",
+	"displayName": "Midnight Theme (One Dark Inspired)",
 	"description": "Custom theme inspired on One Dark Pro with some tweaks.",
 	"version": "1.0.0",
 	"engines": {
@@ -18,14 +18,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Midnight Light",
+				"label": "Midnight Lighter",
 				"uiTheme": "vs-dark",
-				"path": "./themes/midnight-light.json"
+				"path": "./themes/midnight-lighter.json"
 			},
 			{
-				"label": "Midnight Dark",
+				"label": "Midnight Darker",
 				"uiTheme": "vs-dark",
-				"path": "./themes/midnight-dark.json"
+				"path": "./themes/midnight-darker.json"
 			}
 		]
 	}
